@@ -1,8 +1,6 @@
 #galeryImages img {
-    width: 400px;
-    height: 400px;
-    float:left;
+    width: 380px;
+    height: 380px;
     margin-top: 20px;
     margin-left: 20px;
-
 }
