@@ -7,6 +7,7 @@ height: 720px;
 margin: auto;
 }
 footer{
+    margin-top: 30%;
     background-color: rgba(219, 152, 8, 0.315);
     height: 15%;
 }
