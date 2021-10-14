@@ -1,0 +1,55 @@
+ul,
+li {
+  list-style: none;
+}
+
+#menu > li {
+  float: left;
+}
+#menu li a {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  min-width: 180px;
+  text-decoration: none;
+  cursor: pointer;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color: rgb(0, 255, 115);}
+    25%  {background-color: rgb(236, 189, 32);}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    125% {background-color: rgb(201, 117, 102);}
+  }
+
+#menu li a:hover {
+  background-color: #434343;
+}
+
+#menu li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+#menu li ul li {
+  position: relative;
+}
+
+#menu li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+
+#menu li:hover > ul {
+  display: block;
+  color: #000;
+  background-color: #eaeaea;
+}
+/* visited link */
+ a:visited {
+    color: #df1b3c;
+  }
