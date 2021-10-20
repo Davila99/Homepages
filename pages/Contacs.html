@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/menu.css" type="text/CSS" />
-    <link rel="stylesheet" href="../styles/body.css" type="text/CSS" />
     <link rel="stylesheet" href="../styles/maqueta.css" type="text/CSS" />
+    <link rel="stylesheet" href="../styles/Contacs.css" type="text/CSS" />
     <title>Contactos</title>
-</head>
+  </head>
 
-<body>
-<h1>Contactos</h1>
-<header>
-    <nav>
-      <ul id="menu">
-        <li><a href="../Homepage.html">Inicio</a></li>
+  <body>
+    <h1>Contactos</h1>
+    <header>
+      <nav>
+        <ul id="menu">
+          <li><a href="../Homepage.html">Inicio</a></li>
 
-        <li>
-          <a href="../pages/Gallery.html">Galería</a>
-        </li>
+          <li>
+            <a href="../pages/Gallery.html">Galería</a>
+          </li>
 
-        <li><a href="../pages/Features.html">Características</a></li>
-        <li><a href="../pages/Testimonials.html">Testiminios</a></li>
-        <li><a href="#">Contactos</a></li>
-      </ul>
-    </nav>
-  </header>
-<footer>&COPY; Eliseo Davila Ojeda &COPY;Derechos reservados</footer>
-</body>
-
+          <li><a href="../pages/Features.html">Características</a></li>
+          <li><a href="../pages/Testimonials.html">Testiminios</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <table id="">
+      <tr>
+        <td>
+         <img id="tamañoImagen" src="../imagenes/mapa.PNG" alt="">
+        </td>
+        <td>
+            <div>
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+        </td>
+      </tr>
+    </table>
+    <footer>&COPY; Eliseo Davila Ojeda &COPY;Derechos reservados</footer>
+  </body>
 </html>
