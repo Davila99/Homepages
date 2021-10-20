@@ -1,0 +1,28 @@
+#columna1{
+    width: 300px;
+    height:auto;
+    float:left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#columna2{
+    width: 300px;
+    height:auto;
+    float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#columna3{
+    width: 300px;
+    height:auto;
+    float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#imagenFeactures img{
+    margin-top: 0%;
+    width: 100%;
+    
+}
