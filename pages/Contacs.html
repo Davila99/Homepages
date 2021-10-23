@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="../styles/Contacs.css" type="text/CSS" />
     <title>Contactos</title>
   </head>
-
   <body>
     <h1>Contactos</h1>
     <header>
       <nav>
-        <ul id="menu">
-          <li><a href="../Homepage.html">Inicio</a></li>
+        <ul class="nav">
+          <li><a href="../Index.html">Inicio</a></li>
 
           <li>
             <a href="../pages/Gallery.html">Galería</a>
@@ -30,27 +29,36 @@
     <table id="">
       <tr>
         <td>
-         <img id="tamañoImagen" src="../imagenes/mapa.PNG" alt="">
+          <img id="tamañoImagen" src="../imagenes/mapa.PNG" alt="" />
         </td>
         <td>
-            <div>
-                <form action="/action_page.php">
-                  <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                  </select>
-                
-                  <input type="submit" value="Submit">
-                </form>
-              </div>
+          <div>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
         </td>
       </tr>
     </table>

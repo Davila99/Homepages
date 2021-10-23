@@ -1,48 +1,24 @@
-ul,
-li {
-  list-style: none;
+.nav {
+  background: #333;
+  margin:0;
+	padding: 0;
+  position: center;
 }
-
-#menu > li {
-  float: left;
+.nav li {
+	display: inline-block;
+	list-style: none;
+	margin:0;
 }
-#menu li a {
-  background-color: rgb(33, 55, 80);
-  color: white;
-  padding: 10px;
-  display: block;
-  min-width: 180px;
-  text-decoration: none;
-  cursor: pointer;
-  animation-name: example;
-  animation-duration: 4s;
+.nav li a {
+	color: #ddd;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:0.8em;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
-
-#menu li a:hover {
-  background-color: #434343;
+.nav li a:hover {
+	background: #d90075;
+	color: #fff;
 }
-
-#menu li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px;
-}
-#menu li ul li {
-  position: relative;
-}
-
-#menu li ul li ul {
-  right: -140px;
-  top: 0px;
-}
-
-
-#menu li:hover > ul {
-  display: block;
-  color: #000;
-  background-color: #eaeaea;
-}
-/* visited link */
- a:visited {
-    color: #df1b3c;
-  }
